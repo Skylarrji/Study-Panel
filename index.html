@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Study Panel</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript">
+			function changebackground() {
+				var url = document.getElementById('bgchanger')
+					.value;
+				document.getElementsByTagName('body')[0].style.backgroundImage = "url('" + url + "')";
+			}
+		</script>
+
+  </head>
+
+
+  <body>
+
+    
+    <div>
+      <header class = "text" id = "head">
+        <h1 >Study Panel </h1>
+          </header> 
+    </div>
+    
+
+    <div class = sections>
+
+    <div class = "section1", id = "section2">
+
+
+    <h2 class = "text"> Background </h2>
+
+<div class = "text3">
+    <input type="text" id="bgchanger" placeholder="URL of a Background Pattern" />
+    <input type="button" onclick="changebackground();" class = "changebtn" value="Change" />
+</div>
+
+
+    <h2 class = "text">Music</h2>
+    <iframe src="https://open.spotify.com/embed/playlist/6l1TV7C21d3pNuM0EKPSkw" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media" class = "music1"></iframe>
+
+
+    </div>
+
+    <div class = "section1">
+
+      <h2 class = "text"> Calendar </h2>
+<iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffe8d6&amp;ctz=America%2FToronto&amp;src=ZW4uY2FuYWRpYW4jaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%230B8043&amp;title=My%20Calendar" style="border-width:0" width="400" height="300" frameborder="0" scrolling="no" id = "calen"></iframe>
+
+      <h2 class = "text"> Calculator </h2>
+<iframe src="https://www.desmos.com/testing/virginia/scientific" width="600" height="400" id = "calc"></iframe>
+
+
+    
+    </div>
+
+    <div class = "section1", id = "section5">
+
+<div id="myDIV" class="header">
+  <h2 class = "text">To Do List</h2>
+  <input type="text" id="myInput" placeholder="Task...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+
+<ul id="myUL" style = "list-style-type:none">
+  <li>Review math notes</li>
+  <li class="checked">Organize desk</li>
+  <li>Read 100 pages</li>
+  <li>Finish essay</li>
+</ul>
+
+      <h1 class = "text">Notes</h1>
+        <textarea id = "form6" rows="6" cols="70" placeholder="Jot down any notes here (e.g. meeting links)!">
+</textarea>
+
+      
+    </div>
+
+    </div>
+    <!-- <footer id = "foot"> </footer> -->
+    <script src="script.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,272 @@
+h1 {text-align: center;}
+h2 {text-align: center;}
+body {
+  font-family: Arial;
+  margin: 0;
+  background-image: url("https://www.crushpixel.com/big-static14/preview4/seamless-pattern-with-tropical-leaves-1545337.jpg");
+  background-color: #94ccb0e0;
+
+}
+
+#calc {
+  margin-left: 100px;
+  border: none;
+}
+.header {
+  padding: 60px;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+
+#form6 {
+  width: 325px;
+  height: 300px;
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	background-color: #eceae4;
+	font-size: 14px;
+	margin-left: 35px;
+    border: 1px solid #C8BFC4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+  
+
+}
+
+#section2 {
+  margin-top: 60px;
+}
+
+#bgchanger {
+  	text-align: center;
+	font-family: 'Abel', sans-serif;
+	background-color: #eceae4;
+	font-size: 14px;
+	margin-top: 10px;
+  margin-left:40px;
+    border: 1px solid #C8BFC4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+}
+
+.changebtn {
+  margin-left:40px; 
+  margin-bottom: 20px;
+}
+
+.content {padding:10px;}
+
+.experiencesec {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.section1 {
+  margin: auto;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sections {
+  display:flex;
+
+}
+
+#section5 {
+  margin-top: -5px;
+}
+.music1 {
+  border: 1px solid #C8BFC4;
+}
+
+#foot {
+  height: 10px;
+  background-color: #d4c7b0;
+  margin-top: 25px;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Remove margins and padding from the list */
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the list items */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 12px 8px 12px 40px;
+  background: #d9d9d9;
+  font-size: 18px;
+  transition: 0.2s;
+
+
+  /* make the list items unselectable */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Set all odd list items to a different color (zebra-stripes) */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Darker background-color on hover */
+ul li:hover {
+  background: #ddd;
+}
+
+/* When clicked on, add a background color and strike out text */
+ul li.checked {
+  background: #cb997e;
+  color: #d9d9d9;
+  text-decoration: line-through;
+}
+
+/* Add a "checked" mark when clicked on */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Style the close button */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+  /* background-color: #f44336; */
+  color: #d9d9d9;
+}
+
+.changebtn:hover {
+  background-color: #d4c7b0
+}
+
+/* Style the header */
+/* .header {
+  background-color: #f44336;
+  padding: 30px 40px;
+  color: white;
+  text-align: center;
+} */
+
+/* Clear floats after the header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the input */
+input {
+  margin: 0;
+  border: none;
+  border-radius: 0;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background-color: #eceae4;
+  color: #000000;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #d4c7b0;
+}
+
+#myInput {
+  	text-align: center;
+	font-family: 'Abel', sans-serif;
+	background-color: #eceae4;
+	font-size: 14px;
+    border: 1px solid #C8BFC4;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 2px #ddd8dc;
+
+}
+
+.music1 {
+  margin-left: 35px;
+}
+
+.text {
+  background-color: rgb(21, 21, 12, 0.5);
+  font: 'Abel', sans-serif;
+  font-size: 28px;
+  color: #eceae4;
+
+}
+
+.text {
+  background-color: rgb(21, 21, 12, 0.5);
+  font: 'Abel', sans-serif;
+  font-size: 28px;
+  color: #eceae4;
+
+}
+
+#text {
+  background-color: rgb(21, 21, 12, 0.5);
+  font: 'Abel', sans-serif;
+  font-size: 28px;
+  color: #eceae4;
+
+  margin-top: 50px;
+  height: 30px;
+
+}
+
+#myUL{
+  margin-bottom: 75px;
+}
+
+.text3 {
+  margin-bottom: 150px;
+}
+
+#head {
+  width: full;
+  text-align: center;
+  font-size: 10px;
+}
+
+#calen {
+  margin-left: 20%
+}
+
+#calc {
+  margin: auto;
+}
